@@ -13,6 +13,10 @@ IP = "ip of the server"
 
 ##bot made by ItsJeBoyGoogle
 
+print("Bot Connected")
+print("Thank you for using my bot :D")
+
+
 @bot.command()
 async def staff(ctx):
     embed=discord.Embed(title=SERVER +" " + "Staff team", description="Here is the " + SERVER + " staff team", color=0x39aa31)
