@@ -9,19 +9,14 @@ Make sure that you have the newest version of python and https://discordpy.readt
 Go into the folder and change it:
 
 TOKEN = 'Enter token in here!'
-
 SERVER = "Your server name here"
-
 IP = "ip of the server"
 
 
 
 Example:
-
 TOKEN = '4567asdfg9-sdfghjk-sdfg'
-
 SERVER = "Hypixel"
-
 IP = "play.hypixel.net"
 
 Optional:
