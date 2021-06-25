@@ -39,16 +39,4 @@ async def on_message(message):
         await message.channel.send(IP)   
     await bot.process_commands(message)
 
-@bot.event
-async def on_message(message):
-    if message.author.id == bot.user.id:
-        return
-    
-    msg_content = message.content.lower()
-        
-    ip = ['ip', 'IP']
-
-    if any(word in msg_content for word in ip):
-        await message.channel.send(IP)   
-    await bot.process_commands(message)
 bot.run(TOKEN)
