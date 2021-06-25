@@ -14,6 +14,8 @@ SERVER = "Your server name here"
 
 IP = "ip of the server"
 
+
+
 Example:
 
 TOKEN = '4567asdfg9-sdfghjk-sdfg'
